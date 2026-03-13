@@ -1,0 +1,40 @@
+.father {
+  width: 500px;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+.son {
+  text-align: center;
+  color: white;
+}
+.son1 {
+  text-align: center;
+  color: white;
+  background-color: rgb(48, 48, 225);
+  width: 100px;
+  height: 25px;
+  border-radius: 20px;
+}
+.son2 {
+  text-align: center;
+  color: grey;
+}
+.son3 {
+  text-align: center;
+  color: blue;
+  border: 2px;
+  border-radius: 20px;
+  border-color: blue;
+  width: 100px;
+  height: 25px;
+  border-style: solid;
+}
+.zeregldee {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

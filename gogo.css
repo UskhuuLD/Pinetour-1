@@ -1,0 +1,31 @@
+/* css selector */
+
+/* tag name */
+a {
+  color: white;
+}
+p {
+  background-color: rgb(229, 228, 228);
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(108, 109, 110);
+  width: 400px;
+  height: 190px;
+}
+img {
+  width: 500px;
+  height: 300px;
+}
+h3 {
+  width: 500px;
+}
+.huree {
+  border: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: rgb(216, 216, 216);
+  width: 900px;
+}
