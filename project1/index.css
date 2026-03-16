@@ -71,6 +71,12 @@
   justify-content: center;
   align-items: center;
 }
+  .card:hover{border: 2px solid grey;
+    
+  }
+  .card:hover .image{
+    display: block;
+  }
 .card p {
   width: 232px;
   color: rgba(253, 253, 254, 0.8);
@@ -105,6 +111,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 30px;
+position: relative;
 }
 .nuur3 h2 {
   display: flex;
@@ -281,13 +288,47 @@
 .include {
   width: 336px;
   height: 180px;
-  gap: 16px;
+  gap: 30px;
 }
 .htext p {
   width: 256px;
   height: 22px;
   font-size: 18px;
   color: #121316;
+}
+.icontain1 {
+  width: 336px;
+  height: 20px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icontain1 img {
+  width: 20px;
+  height: 20px;
+}
+.icontain1 p {
+  width: 296px;
+  height: 17px;
+  font-size: 14px;
+  color: #3f4145;
+}
+.button {
+  width: 336px;
+  height: 48px;
+  background-color: #a4d1e2;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -100px;
+}
+.button p {
+  width: 117px;
+  height: 20px;
+  font-size: 16px;
+  color: black;
 }
 .standart {
   width: 384px;
@@ -300,4 +341,13 @@
   height: 527px;
   border-radius: 40px;
   background-color: #fafbfc;
+}
+.footer {
+  width: 1440px;
+  height: 204px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  gap: 10px;
 }
